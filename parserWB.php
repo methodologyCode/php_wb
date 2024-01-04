@@ -10,10 +10,9 @@ class ParseVideoCard
                          Chrome/102.0.0.0 Safari/537.36',
     ];
 
-    public function __construct($brand = 'MSI', $page = 1)
+    public function __construct($page = 1)
     {
         $this->page = $page;
-        $this->brand = $brand;
     }
 
     public function parse($selectedBrand)
